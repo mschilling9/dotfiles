@@ -30,6 +30,8 @@ vim.opt.showmatch = true
 vim.opt.textwidth = 79
 vim.opt.termguicolors = true
 
+-- https://lsp-zero.netlify.app/v3.x/blog/you-might-not-need-lsp-zero.html
+--
 -- note: diagnostics are not exclusive to lsp servers
 -- so these can be global keybindings
 vim.keymap.set('n', 'gl', '<cmd>lua vim.diagnostic.open_float()<cr>')
