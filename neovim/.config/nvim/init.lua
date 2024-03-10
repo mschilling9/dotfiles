@@ -1,3 +1,8 @@
+-- begin For NVIM TREE
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+-- end For NVIM TREE
+
 vim.cmd("filetype plugin on")
 vim.opt.langmenu = "en_US.UTF-8"
 vim.opt.encoding = "utf-8"
@@ -30,7 +35,8 @@ vim.opt.showmatch = true
 vim.opt.textwidth = 79
 vim.opt.termguicolors = true
 
--- https://lsp-zero.netlify.app/v3.x/blog/you-might-not-need-lsp-zero.html
+-- begin for LSP
+-- FROM: https://lsp-zero.netlify.app/v3.x/blog/you-might-not-need-lsp-zero.html
 --
 -- note: diagnostics are not exclusive to lsp servers
 -- so these can be global keybindings
@@ -126,6 +132,24 @@ require('lspconfig').clangd.setup({
           "--cross-file-rename",
   }
 })
+-- end for LSP
 
 require("everforest").load()
 require("lualine").setup()
+
+-- begin For NVIM TREE
+require("nvim-tree").setup({
+  sort = {
+    sorter = "case_sensitive",
+  },
+  view = {
+    width = 30,
+  },
+  renderer = {
+    group_empty = true,
+  },
+  filters = {
+    dotfiles = false,
+  },
+})
+-- end For NVIM TREE
