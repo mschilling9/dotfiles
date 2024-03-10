@@ -128,3 +128,4 @@ require('lspconfig').clangd.setup({
 })
 
 require("everforest").load()
+require("lualine").setup()
