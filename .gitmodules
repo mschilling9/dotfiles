@@ -1,0 +1,21 @@
+[submodule "neovim/.local/share/nvim/site/pack/builtin/start/nvim-lspconfig"]
+	path = neovim/.local/share/nvim/site/pack/builtin/start/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
+[submodule "neovim/.local/share/nvim/site/pack/builtin/start/nvim-cmp"]
+	path = neovim/.local/share/nvim/site/pack/builtin/start/nvim-cmp
+	url = https://github.com/hrsh7th/nvim-cmp.git
+[submodule "neovim/.local/share/nvim/site/pack/builtin/start/mason.nvim"]
+	path = neovim/.local/share/nvim/site/pack/builtin/start/mason.nvim
+	url = https://github.com/williamboman/mason.nvim.git
+[submodule "neovim/.local/share/nvim/site/pack/builtin/start/everforest-nvim"]
+	path = neovim/.local/share/nvim/site/pack/builtin/start/everforest-nvim
+	url = https://github.com/neanias/everforest-nvim.git
+[submodule "neovim/.local/share/nvim/site/pack/builtin/start/cmp-nvim-lsp"]
+	path = neovim/.local/share/nvim/site/pack/builtin/start/cmp-nvim-lsp
+	url = https://github.com/hrsh7th/cmp-nvim-lsp.git
+[submodule "neovim/.local/share/nvim/site/pack/builtin/start/mason-lspconfig.nvim"]
+	path = neovim/.local/share/nvim/site/pack/builtin/start/mason-lspconfig.nvim
+	url = https://github.com/williamboman/mason-lspconfig.nvim.git
+[submodule "neovim/.local/share/nvim/site/pack/builtin/start/LuaSnip"]
+	path = neovim/.local/share/nvim/site/pack/builtin/start/LuaSnip
+	url = https://github.com/L3MON4D3/LuaSnip.git
