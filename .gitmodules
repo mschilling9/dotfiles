@@ -19,3 +19,6 @@
 [submodule "neovim/.local/share/nvim/site/pack/builtin/start/LuaSnip"]
 	path = neovim/.local/share/nvim/site/pack/builtin/start/LuaSnip
 	url = https://github.com/L3MON4D3/LuaSnip.git
+[submodule "neovim/.local/share/nvim/site/pack/builtin/start/vim-gitgutter"]
+	path = neovim/.local/share/nvim/site/pack/builtin/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
